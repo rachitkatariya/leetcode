@@ -16,7 +16,7 @@ public class MaxProfit {
             int currProfit = prices[i] - bestBuy[i];
             maxProfit = Math.max(maxProfit, currProfit);
         }
-
+        // O(n+n) = O(2n) -> O(n)
         System.out.println("Max profit: " + maxProfit);
     }
 

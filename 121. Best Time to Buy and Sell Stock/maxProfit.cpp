@@ -2,7 +2,6 @@
 #include<climits>
 using namespace std;
 
-
 void maxProfit(int *prices, int n) {
     int bestBuy[10000];
     bestBuy[0] = INT_MAX;
